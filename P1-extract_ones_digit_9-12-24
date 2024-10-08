@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class kenji1
+{
+	public static void main(String [] args)
+	{
+		Scanner Vscan = new
+		Scanner (System.in);
+
+		System.out.println("Enter Integer Number");
+		int numIn = Vscan.nextInt();
+		float numOut = numIn;
+		
+		numOut = numOut%10;
+
+		System.out.println("The one's Digit is "+ numOut);
+		
+	}
+}
